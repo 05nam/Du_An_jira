@@ -79,7 +79,7 @@ export const taskReducer = (state = initialState, action) => {
             state.taskDetail.lstComment = [...state.taskDetail.lstComment]
             state.taskDetail = { ...state.taskDetail }
             return { ...state }
-        case 'UPDATE_TIMETRACKING':
+        case 'UPDATE_SIDETRACKING':
             state.taskDetail.timeTrackingSpent = action.data
             state.taskDetail = { ...state.taskDetail }
             return { ...state }
