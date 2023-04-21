@@ -1,0 +1,11 @@
+.login_input {
+  color: blue;
+  min-height: 105px;
+}
+
+.formButtonLogin {
+  width: 100%;
+}
+.formButtonLogin button {
+  width: 100%;
+}

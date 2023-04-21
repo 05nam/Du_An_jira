@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* form */
+.form_Container {
+  align-items: center;
+}
+.form_Left {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.form_Left img {
+  width: 100%;
+  height: 70%;
+}
+
+/* register */
+.register {
+  text-align: center;
+}
+
+.formButtonLogin {
+  width: 107px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* project managerment */
+.projectManager_Container {
+  padding: 30px;
+}
+
+.projectManager_ContainerTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.memberList {
+  position: relative;
+  display: inline-block;
+}
+
+.memberList:hover .members {
+  display: block;
+}
+
+.members {
+  position: absolute;
+  top: 23px;
+  display: none;
+  background-color: white;
+  z-index: 4;
+}
+
+.members .memberTable .avatar {
+  width: 30px;
+}
+.addMembers {
+  display: inline-block;
+}
+
+.tableUserContainer {
+  height: 400px;
+  overflow: scroll;
+}
+
+.listUserAdd_Table .table_Row {
+  cursor: pointer;
+}
+
+.userLink {
+  text-decoration: none;
+  color: white;
+}
+
+.userLink:hover {
+  color: blue;
+}
+
+/* PROJECT DETAIL */
+
+.projectDetail_Title {
+  text-transform: capitalize;
+}
+
+.projectDetail_Container {
+  padding: 30px;
+}
+
+.projectDetail_Description::first-letter {
+  text-transform: uppercase;
+}
+
+.projectDetail_SearchBar {
+  display: flex;
+  align-items: center;
+}
+
+.boardContainer {
+  height: inherit;
+  padding-top: 20px;
+}
+
+.taskBoard {
+  background-color: rgba(162, 162, 162, 0.5);
+  padding: 5px 5px;
+  height: 100%;
+}
+
+.taskBoard_Title {
+  padding: 10px;
+}
+
+.taskContainer_Task {
+  padding: 10px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.taskContainer_TaskTitle {
+  font-weight: bold;
+}
+
+.taskContainer_TaskInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskContainer_TaskTitle::first-letter {
+  text-transform: uppercase;
+}
+
+.taskAva {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.taskMember img {
+  padding: 0px 1px;
+}
+
+.projectDetail_SearchBarAva {
+  margin-left: 20px;
+}
+
+.projectDetail_SearchBarAva img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.comment {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.comment_button {
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  color: blue;
+}
+
+.hoverButton:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.img_logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.comment_button {
+  min-height: 105px;
+}
